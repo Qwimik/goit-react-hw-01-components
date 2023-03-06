@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const ProfileContainer = styled.div`
-  padding: 100px;
+  padding: 120px 0;
   display: flex;
   justify-content: center;
   align-items: center;
