@@ -9,8 +9,7 @@ export const ProfileContainer = styled.div`
 `;
 
 export const ProfileCadr = styled.div`
-  width: 400px;
-
+  width: 300px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 15px 1px #c8c8c8;
