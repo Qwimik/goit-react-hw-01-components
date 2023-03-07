@@ -6,7 +6,6 @@ export const StatisticsContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #eee;
 `;
 
 export const StatisticsWrapper = styled.div`

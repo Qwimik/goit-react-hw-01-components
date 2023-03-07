@@ -6,7 +6,6 @@ export const FriendsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #eee;
 `;
 export const FriendsCards = styled.ul`
   display: flex;

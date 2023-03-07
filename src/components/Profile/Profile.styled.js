@@ -5,7 +5,6 @@ export const ProfileContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eee;
 `;
 
 export const ProfileCadr = styled.div`
