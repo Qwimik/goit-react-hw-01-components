@@ -3,6 +3,7 @@ import {
   StatsLabel,
   StatsPersent,
 } from 'components/StatisticsItem/StatisticsItem.styled';
+import PropTypes from 'prop-types';
 
 export const StatisticsItem = ({ label, percentage }) => {
   return (
@@ -11,4 +12,9 @@ export const StatisticsItem = ({ label, percentage }) => {
       <StatsPersent>{percentage}%</StatsPersent>
     </StatsItem>
   );
+};
+
+StatisticsItem.propTypes = {
+  label: PropTypes.string,
+  percentage: PropTypes.number,
 };
